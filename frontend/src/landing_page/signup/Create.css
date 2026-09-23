@@ -1,0 +1,106 @@
+.create-page {
+  min-height: 100vh;
+  background: #fff;
+  color: #424242;
+}
+
+.create-navbar {
+  height: 70px;
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 600;
+  color: #387ed1;
+}
+
+.login-text {
+  font-size: 15px;
+  color: #666;
+  margin-right: 25px;
+}
+
+.login-text a {
+  color: #387ed1;
+  margin-left: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.create-container {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.create-card {
+  width: 400px;
+  text-align: center;
+}
+
+.create-card h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #387ed1;
+}
+
+.create-btn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 4px;
+  background: #387ed1;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create-btn:hover {
+  background: #2f6fb8;
+}
+
+.terms {
+  margin-top: 25px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #999;
+}

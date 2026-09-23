@@ -1,0 +1,157 @@
+/* Home-Page-Section */
+.home-hero {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+
+ /* Navabar */
+.navbar {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  padding: 18px;
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo */
+
+ .logo img {
+  width: 130px;
+  height: auto;
+  display: block;
+  margin-left: 100px;
+} 
+
+/* Desktop navigation */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.nav-links a:hover {
+  color: #387ed1;
+} 
+
+/* Hamburger */
+
+ .menu-button {
+  width: 30px;
+  height: 30px;
+  margin-left: 38px;
+
+  border: none;
+  background: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+
+  cursor: pointer;
+}
+
+.menu-button span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background-color: #424242;
+}
+
+/* Mobile */
+
+ @media (max-width: 768px) {
+  .nav-links a {
+    display: none;
+  }
+
+  .nav-row {
+    min-height: 60px;
+  }
+
+  .menu-button {
+    margin-left: auto;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .menu-content {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .menu-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+} 
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: #555;
+  margin-left: 20px;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+
+  width: 875px;
+  background: white;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+
+  z-index: 1000;
+}
+
+/* Top */
+
+.hamburger-top {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  padding: 35px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.hamburger-top > div {
+  width: 23%;
+}
+
+.hamburger-top img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.hamburger-top h4 {
+  margin: 12px 0 8px;
+}
+
+.hamburger-top p {
+  margin: 0;
+  color: #999;
+}
