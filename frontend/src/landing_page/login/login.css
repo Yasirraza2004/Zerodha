@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-page {
+  min-height: 100vh;
+  background: #fafafa;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 70px;
+}
+
+/* Login card */
+
+.login-box {
+  width: 448px;
+  min-height: 534px;
+
+  background: white;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  padding: 48px 50px;
+
+  text-align: center;
+}
+
+/* Logo */
+
+.kite-logo {
+  width: 76px;
+  height: 55px;
+
+  object-fit: contain;
+
+  margin-bottom: 35px;
+}
+
+/* Heading */
+
+.login-box h1 {
+  font-size: 27px;
+  font-weight: 400;
+
+  color: #333;
+
+  margin: 0 0 22px;
+}
+
+/* User ID */
+
+.input-group {
+  position: relative;
+  margin-bottom: 34px;
+}
+
+.input-group input {
+  width: 100%;
+  height: 57px;
+
+  border: 2px solid #c8dbf8;
+  border-radius: 5px;
+
+  padding: 15px 20px;
+
+  font-size: 16px;
+
+  outline: none;
+}
+
+.input-group label {
+  position: absolute;
+
+  top: -9px;
+  left: 15px;
+
+  background: white;
+
+  padding: 0 7px;
+
+  color: #999;
+
+  font-size: 14px;
+
+  z-index: 1;
+}
+
+/* Password */
+
+.password-box {
+  position: relative;
+
+  margin-bottom: 39px;
+}
+
+.password-box input {
+  width: 100%;
+  height: 50px;
+
+  border: 1px solid #ddd;
+
+  padding: 15px 20px;
+
+  font-size: 17px;
+
+  outline: none;
+}
+
+.password-box input::placeholder {
+  color: #999;
+}
+
+.eye {
+  position: absolute;
+
+  right: 14px;
+  top: 15px;
+
+  color: #999;
+
+  cursor: pointer;
+}
+
+/* Login button */
+
+.login-btn {
+  width: 100%;
+  height: 46px;
+
+  border: none;
+  border-radius: 4px;
+
+  background: #ff5722;
+  color: white;
+
+  font-size: 17px;
+
+  cursor: pointer;
+
+  margin-bottom: 20px;
+}
+
+.login-btn:hover {
+  background: #e64a19;
+}
+
+/* Forgot */
+
+.forgot {
+  color: #999;
+
+  text-decoration: none;
+
+  font-size: 16px;
+}
+
+.forgot:hover {
+  color: #387ed1;
+}
+
+/* Footer */
+
+.login-footer {
+  text-align: center;
+
+  color: #aaa;
+
+  margin-top: 50px;
+
+  width: 500px;
+}
+
+.app-icons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 35px;
+
+  margin-bottom: 30px;
+
+  font-size: 20px;
+}
+
+.zerodha-footer {
+  color: #ccc;
+
+  font-size: 20px;
+
+  margin-bottom: 25px;
+}
+
+.login-footer p {
+  font-size: 16px;
+
+  margin-bottom: 20px;
+}
+
+.login-footer p a {
+  color: #888;
+
+  text-decoration: none;
+}
+
+.login-footer small {
+  display: block;
+
+  line-height: 22px;
+
+  font-size: 13px;
+}
+
+.version {
+  margin-top: 18px;
+
+  font-size: 13px;
+
+  color: #bbb;
+}
